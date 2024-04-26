@@ -25,14 +25,14 @@ Develop an optimal service allocation strategy to maximize profit under demand, 
 - At least 5 cars of each type must be serviced at every level.
 
 ## Decision Variables
-Represented as $ x_i,j $ where:
+Represented as \( x_i,j \) where:
 - _i_ is the car type (Compact, MidSize, SUV)
 - _j_ is the service level (Basic, Premium, Ultra)
 
-For example, $ x_Compact,Basic $ denotes the number of Compact cars receiving Basic service.
+For example, \( x_Compact,Basic \) denotes the number of Compact cars receiving Basic service.
 
 ## Algebraic Formulation
-The problem is formulated to maximize the profit _Z_ by determining the number $ x_i,j $ of cars of type _i_ serviced at level _j_, within the given constraints.
+The problem is formulated to maximize the profit _Z_ by determining the number \( x_i,j \) of cars of type _i_ serviced at level _j_, within the given constraints.
 
 ## Implementation
 An accompanying Jupyter Notebook (Car_Optimization.ipynb) and an Excel file with solver integration (Car_Opt_excel.xlsx) provide the implemented model using Python and AMPL.
